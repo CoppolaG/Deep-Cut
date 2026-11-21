@@ -30,7 +30,7 @@ jobs:
       - run: npm run check-sprites
       - run: npm run build
         env:
-          # es. "/deep-cut" per https://coppolag.github.io/deep-cut/
+          # es. "/Deep-Cut" per https://coppolag.github.io/Deep-Cut/
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3

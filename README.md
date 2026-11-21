@@ -57,14 +57,14 @@ npm run build      # sito statico in out/
 ## Pubblicare
 
 Ogni push su `main` pubblica il gioco su GitHub Pages da solo (`.github/workflows/deploy.yml`): il workflow controlla gli sprite, compila il sito statico e lo carica.
-Indirizzo: https://coppolag.github.io/deep-cut/
+Indirizzo: https://coppolag.github.io/Deep-Cut/
 
 La prima volta, nelle impostazioni del repository su GitHub, vai su *Settings → Pages* e in *Source* scegli **GitHub Actions**.
 
 Per provare in locale il sito compilato con lo stesso percorso:
 
 ```
-NEXT_PUBLIC_BASE_PATH=/deep-cut npm run build
+NEXT_PUBLIC_BASE_PATH=/Deep-Cut npm run build
 ```
 
 ## Collegare Supabase
